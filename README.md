@@ -184,7 +184,7 @@ Risk and model-governance teams
 
 Macro and systemic-risk researchers
 
-Repository Structure
+### Repository Structure
 regimeguard/
 ├── api/            # FastAPI application
 ├── core/           # Entropy, energy, instability logic
