@@ -141,6 +141,7 @@ The root endpoint (`/`) redirects to `/regime_state`.
   "regime": "DISORDERED",
   "confidence": 0.87
 }
+
 ## Interpretation
 
 When RegimeGuard reports an unstable regime, it implies:
