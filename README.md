@@ -186,14 +186,14 @@ Macro and systemic-risk researchers
 
 ### Repository Structure
 regimeguard/
--├── api/            # FastAPI application
--├── core/           # Entropy, energy, instability logic
--├── agents/         # Agent stress & coordination models
--├── observer/       # Regime classification logic
--├── validation/     # No-data and structural tests
--├── examples/       # Demo runs
--├── run.py          # API runner
--└── README.md
+├── api/ # FastAPI application
+├── core/ # Entropy, energy, instability logic
+├── agents/ # Agent stress & coordination models
+├── observer/ # Regime classification logic
+├── validation/ # No-data and structural tests
+├── examples/ # Demo runs
+├── run.py # API runner
+└── README.md
 
 Installation & Running
 pip install -r requirements.txt
