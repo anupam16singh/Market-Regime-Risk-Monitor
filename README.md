@@ -262,12 +262,4 @@ RegimeGuard is a market regime and risk monitoring system that determines when q
 - Product-aligned
 - Zero hype
 
-If you want next, I can:
-- generate `CONTRIBUTING.md`
-- write `CHANGELOG.md`
-- prepare **v0.1 GitHub release notes**
-- help you tag and publish the **first release**
-- review your repo before you push
-
-Just tell me the next step.
 
