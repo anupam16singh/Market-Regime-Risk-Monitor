@@ -141,7 +141,7 @@ The root endpoint (`/`) redirects to `/regime_state`.
   "confidence": 0.87
 }
 ```
-
+```
 Interpretation
 
 When RegimeGuard reports an unstable regime, it implies:
@@ -169,7 +169,7 @@ Detecting when diversification assumptions are likely to fail
 Providing defensible, structural explanations to risk committees
 
 RegimeGuard governs when models should be trusted, not what trades to place.
-
+```
 Typical Users
 
 RegimeGuard is intended for institutional and research-focused users, including:
@@ -183,8 +183,8 @@ Family offices
 Risk and model-governance teams
 
 Macro and systemic-risk researchers
-
-### Repository Structure
+```
+## Repository Structure
 regimeguard/
 ├── api/ # FastAPI application
 ├── core/ # Entropy, energy, instability logic
@@ -194,21 +194,21 @@ regimeguard/
 ├── examples/ # Demo runs
 ├── run.py # API runner
 └── README.md
-
+```
 Installation & Running
 pip install -r requirements.txt
 python run.py
-
+```
 
 Open in your browser:
 
 http://127.0.0.1:8000/
-
-
+```
+```
 API documentation (Swagger UI):
 
 http://127.0.0.1:8000/docs
-
+```
 Disclaimer
 
 This project is provided for research and educational purposes only.
