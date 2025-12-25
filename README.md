@@ -141,74 +141,77 @@ The root endpoint (`/`) redirects to `/regime_state`.
   "regime": "DISORDERED",
   "confidence": 0.87
 }
+```
 
-## Interpretation
+Interpretation
 
 When RegimeGuard reports an unstable regime, it implies:
 
-- **Market structure is unstable**
-- **Quant assumptions may be unreliable**
-- **Aggressive strategies should be disabled**
+Market structure is unstable
 
-This output is intended to guide *risk posture*, not trade direction.
+Quant assumptions may be unreliable
 
----
+Aggressive strategies should be disabled
 
-## How RegimeGuard Is Used
+This output is intended to guide risk posture, not trade direction.
 
-RegimeGuard is designed to be used **alongside existing models**, not instead of them.
+How RegimeGuard Is Used
 
-### Typical usage includes:
+RegimeGuard is designed to be used alongside existing models, not instead of them.
 
-- Enabling or disabling strategies based on the detected regime
-- Dynamically adjusting leverage and exposure
-- Detecting when diversification assumptions are likely to fail
-- Providing defensible, structural explanations to risk committees
+Typical usage includes:
 
-RegimeGuard governs **when models should be trusted**, not **what trades to place**.
+Enabling or disabling strategies based on the detected regime
 
----
+Dynamically adjusting leverage and exposure
 
-## Typical Users
+Detecting when diversification assumptions are likely to fail
+
+Providing defensible, structural explanations to risk committees
+
+RegimeGuard governs when models should be trusted, not what trades to place.
+
+Typical Users
 
 RegimeGuard is intended for institutional and research-focused users, including:
 
-- Hedge funds (quantitative and discretionary)
-- Asset management firms
-- Family offices
-- Risk and model-governance teams
-- Macro and systemic-risk researchers
+Hedge funds (quantitative and discretionary)
 
----
+Asset management firms
 
-## Repository Structure
+Family offices
 
+Risk and model-governance teams
+
+Macro and systemic-risk researchers
+
+Repository Structure
 regimeguard/
-├── api/ # FastAPI application
-├── core/ # Entropy, energy, instability logic
-├── agents/ # Agent stress & coordination models
-├── observer/ # Regime classification logic
-├── validation/ # No-data and structural tests
-├── examples/ # Demo runs
-├── run.py # API runner
+├── api/            # FastAPI application
+├── core/           # Entropy, energy, instability logic
+├── agents/         # Agent stress & coordination models
+├── observer/       # Regime classification logic
+├── validation/     # No-data and structural tests
+├── examples/       # Demo runs
+├── run.py          # API runner
 └── README.md
 
----
-
-## Installation & Running
-
-
+Installation & Running
 pip install -r requirements.txt
 python run.py
+
+
 Open in your browser:
 
-
 http://127.0.0.1:8000/
+
+
 API documentation (Swagger UI):
 
-
 http://127.0.0.1:8000/docs
+
 Disclaimer
+
 This project is provided for research and educational purposes only.
 
 It does not provide investment advice, trading signals, portfolio recommendations, or execution logic.
@@ -216,11 +219,13 @@ It does not provide investment advice, trading signals, portfolio recommendation
 Use at your own risk.
 
 License
+
 This project is licensed under the Apache License 2.0.
 
 You are free to use, modify, and extend it, including for commercial purposes, subject to the license terms.
 
 Project Status
+
 MVP complete
 
 Core logic implemented
@@ -230,6 +235,7 @@ API operational
 Ready for research use, pilots, and further development
 
 Contributions & Discussion
+
 This repository represents an ongoing research and engineering effort.
 
 Contributions, critiques, and discussions are welcome — especially around:
@@ -243,20 +249,26 @@ non-equilibrium finance
 model-risk governance
 
 One-Line Summary
+
 RegimeGuard is a market regime and risk monitoring system that determines when quant models and assumptions are structurally safe or unsafe — without predicting prices.
+
 
 ---
 
-### ✅ This section is now:
-- Markdown-correct
-- GitHub-rendered cleanly
+### ✅ This README is now:
+- Fully complete
+- GitHub-ready
 - Institution-safe
-- Consistent with the rest of the README
+- Research-credible
+- Product-aligned
+- Zero hype
 
 If you want next, I can:
-- merge this into a **single final README**
 - generate `CONTRIBUTING.md`
-- write **v0.1 release notes**
-- help you tag and publish the **first GitHub release**
+- write `CHANGELOG.md`
+- prepare **v0.1 GitHub release notes**
+- help you tag and publish the **first release**
+- review your repo before you push
 
 Just tell me the next step.
+
