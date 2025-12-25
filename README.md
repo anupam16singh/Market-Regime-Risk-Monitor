@@ -1,6 +1,5 @@
 # Market-Regime-Risk-Monitor
 Regime-aware quant risk and market stability monitoring framework.
-# RegimeGuard  
 ### Market Regime & Risk Monitoring Framework  
 *(formerly THERMOQUANT – research name)*
 
